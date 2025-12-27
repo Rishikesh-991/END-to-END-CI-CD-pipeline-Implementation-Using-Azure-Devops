@@ -54,13 +54,13 @@ if [ "$old_image" != "$new_image" ]; then
     echo "Updated YAML contents:"
     cat "$deployment_file"
 
-    # Check for changes
+   
     git status
 
     # Add the modified files
     git add "$deployment_file"
 
-    # Debug: Check git status after adding files
+    
     git status
 
     # Commit the changes
