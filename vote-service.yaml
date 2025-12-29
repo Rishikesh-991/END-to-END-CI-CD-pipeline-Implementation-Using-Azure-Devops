@@ -70,5 +70,5 @@ stages:
     - task: ShellScript@2
       inputs:  
         scriptPath: '/home/azureuser/myagent/_work/2/s/scripts/updatek8smanifest.sh'
-        args: '$(tag)'  # Pass the image tag as an argument
+        args: '$(tag)'  # Pass the image tag as an the  argument
 

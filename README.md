@@ -30,7 +30,7 @@ The shell script updates the image tag in the deployment YAML file with the late
 ## Continuous Deployment (CD)
 
 1. **GitOps (ArgoCD)**: ArgoCD monitors the deployment YAML file and Azure Repo for changes.
-2. **Deploy to AKS**: ArgoCD deploys the updated image to the Azure Kubernetes Service (AKS) cluster.
+2. **Deploy to AKS**: ArgoCD deploys  updated image to the Azure Kubernetes Service (AKS) cluster.
 
 ## Additional Components
 
